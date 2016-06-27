@@ -21,7 +21,6 @@ public class AddCoin : MonoBehaviour
 		{
 			coinSound.Play ();
 			coinManager.coinCount++;
-			coinManager.lvlCoinCount--;
 			Destroy (coin.gameObject);
 		}
 	}
