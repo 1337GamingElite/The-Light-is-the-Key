@@ -6,6 +6,7 @@ public class ResetBattery : MonoBehaviour
 
 	private GameObject flashLight;
 	private LightToggle battery;
+	public AudioSource sound;
 
 	void Start()
 	{
@@ -20,6 +21,7 @@ public class ResetBattery : MonoBehaviour
 			battery.currentBattery = battery.maxBattery;
 			float newBatteryBarValue = battery.currentBattery / battery.maxBattery;
 			battery.setBatteryBar(newBatteryBarValue);
+			sound.Play ();
 			Destroy(batteryPickUp.gameObject);
 		}
 	}
