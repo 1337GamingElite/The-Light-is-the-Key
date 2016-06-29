@@ -12,3 +12,7 @@ A - Strafe Left
 D - Strafe Right    
 LEFT CLICk - Turn On/Off the flashlight   
 V - Show FPS
+
+___
+
+Note: This game would be free because I made it using the Personal Edition for Unity
